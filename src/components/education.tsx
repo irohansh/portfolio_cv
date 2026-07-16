@@ -16,7 +16,7 @@ export function Education() {
                   {item.institution}
                 </p>
               </div>
-              <div className="text-right">
+              <div className="text-left sm:text-right">
                 <p className="text-sm text-zinc-400 dark:text-zinc-500">
                   {item.period}
                 </p>

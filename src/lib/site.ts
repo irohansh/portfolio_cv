@@ -7,8 +7,8 @@ export const site = {
   githubUsername: "irohansh",
   email: "irohansh235@gmail.com",
   url: "https://irohansh.tech",
-  /** Place your resume at public/resume.pdf (or change this path). */
-  resume: "/resume.pdf",
+  resume:
+    "https://drive.google.com/file/d/18y_Y-Wb2KMX5MuCMB52py7QYk0USOWRt/view?usp=drivesdk",
   socials: {
     github: "https://github.com/irohansh",
     linkedin: "https://www.linkedin.com/in/rohansharma89",
@@ -28,7 +28,7 @@ export const navLinks = [
 export const education = [
   {
     degree: "Bachelor of Technology in Computer Science & Engineering",
-    institution: "Vellore Institute of Technology, Chennai — Chennai, India",
+    institution: "Vellore Institute of Technology, Chennai",
     period: "2023 — 2027",
     cgpa: "9.1",
     intro:
@@ -38,7 +38,6 @@ export const education = [
       "Operating Systems",
       "Database Management Systems",
       "Computer Networks",
-      "Distributed Systems",
       "Object-Oriented Programming",
     ],
   },
@@ -77,13 +76,7 @@ export const skills = [
   },
   {
     category: "Practices",
-    items: [
-      "System Design",
-      "Data Structures & Algorithms",
-      "CI/CD",
-      "Clean Architecture",
-      "Observability",
-    ],
+    items: ["System Design", "Data Structures & Algorithms"],
   },
 ] as const;
 

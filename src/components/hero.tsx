@@ -28,7 +28,8 @@ export function Hero() {
           </a>
           <a
             href={site.resume}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1.5 rounded-md border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition-all duration-200 hover:scale-[1.02] hover:border-zinc-400 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-600 dark:hover:text-zinc-100"
           >
             <Download className="h-4 w-4" strokeWidth={1.75} />
