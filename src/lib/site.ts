@@ -8,7 +8,7 @@ export const site = {
   email: "irohansh235@gmail.com",
   url: "https://irohansh.tech",
   resume:
-    "https://drive.google.com/file/d/16V2x94r7OYKQWjt-0wq7EJlf4UeO7s1D/view?usp=sharing",
+    "https://drive.google.com/file/d/1cxmV_goF6LY6Our4pWXi1necumS1Nm8B/view?usp=sharing",
   socials: {
     github: "https://github.com/irohansh",
     linkedin: "https://www.linkedin.com/in/rohansharma89",
