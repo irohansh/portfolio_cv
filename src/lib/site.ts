@@ -8,7 +8,7 @@ export const site = {
   email: "irohansh235@gmail.com",
   url: "https://irohansh.tech",
   resume:
-    "https://drive.google.com/file/d/1KwSB_dk6KbmzNYhTGUAqIq6tAjr6gChj/view?usp=drive_link",
+    "https://drive.google.com/file/d/1DU6xNP5TKME8LaEknXhWeR8ODhTC5sJp/view?usp=sharing",
   socials: {
     github: "https://github.com/irohansh",
     linkedin: "https://www.linkedin.com/in/rohansharma89",
@@ -58,6 +58,19 @@ export const experience = [
       "Delivered real-time engagement, content management, and notification modules in an Agile team using Git.",
     ],
     stack: ["Node.js", "Express.js", "MongoDB", "REST APIs", "JWT", "OAuth 2.0", "Git"],
+  },
+  {
+    role: "DevOps Intern",
+    company: "Comviva",
+    location: "Gurugram, India",
+    period: "May 2025 — Jul 2025",
+    summary:
+      "Managed cloud infrastructure and automated delivery pipelines.",
+    highlights: [
+      "Worked on Infrastructure as Code (IaC) using Terraform to define and manage AWS resources through version-controlled configurations.",
+      "Automated build and deployment workflows through CI/CD pipelines using GitHub Actions, working with Docker containers on Linux environments.",
+    ],
+    stack: ["Terraform", "AWS", "GitHub Actions", "Docker", "Linux", "CI/CD"],
   },
 ] as const;
 
