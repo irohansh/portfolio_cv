@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { navLinks, site } from "@/lib/site";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -8,9 +9,17 @@ export function Header() {
       <nav className="mx-auto flex h-14 max-w-4xl items-center justify-between px-6">
         <Link
           href="/"
-          className="font-mono text-sm font-medium tracking-tight text-zinc-900 transition-opacity hover:opacity-70 dark:text-zinc-100"
+          aria-label={`${site.name} — home`}
+          className="transition-opacity hover:opacity-70"
         >
-          {site.githubUsername}
+          <Image
+            src="/monogram-r.svg"
+            alt={`${site.name} logo`}
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-auto dark:invert"
+          />
         </Link>
         <div className="flex items-center gap-1 sm:gap-2">
           <ul className="hidden items-center gap-1 sm:flex">

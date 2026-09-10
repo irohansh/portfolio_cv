@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 420 180" width="420" height="180">
+  <title>&lt;/r&gt; Monospace Logo</title>
+  <desc>Minimal monochrome developer logo using a standard monospace typeface.</desc>
+
+  <text x="210" y="126"
+        text-anchor="middle"
+        font-family="DejaVu Sans Mono, Consolas, Menlo, Monaco, monospace"
+        font-size="92"
+        font-weight="500"
+        letter-spacing="-7"
+        fill="currentColor">&lt;/r&gt;</text>
+</svg>
