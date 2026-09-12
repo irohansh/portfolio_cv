@@ -50,14 +50,23 @@ export const experience = [
     location: "Chennai, India",
     period: "Oct 2025 — Jun 2026",
     summary:
-      "Worked on the backend of a community platform serving 2K+ users.",
+      "Worked on the backend of a community platform serving 10K+ users.",
     highlights: [
-      "Built backend services and REST APIs with Node.js and Express.js powering posts, communities, and user interactions.",
-      "Secured the APIs with JWT authentication, Google OAuth 2.0, and role-based access control.",
-      "Optimized MongoDB schemas and query execution for faster data retrieval and better scalability.",
-      "Delivered real-time engagement, content management, and notification modules in an Agile team using Git.",
+      "Designed and developed REST APIs with Node.js and Express.js, securing 10+ endpoints with middleware for JWT authentication, Google OAuth 2.0, and RBAC.",
+      "Implemented WebSocket-based communication to replace HTTP polling, delivering sub-second notifications and live feed updates alongside 5 backend modules for content management and user engagement.",
+      "Optimized MongoDB schemas, compound indexing, and query execution to reduce latency by 30% on high-traffic endpoints, improving scalability under load.",
+      "Documented and tested 10+ API endpoints with Postman and Swagger, standardizing error handling and HTTP status codes across services in an Agile team using Git.",
     ],
-    stack: ["Node.js", "Express.js", "MongoDB", "REST APIs", "JWT", "OAuth 2.0", "Git"],
+    stack: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "WebSockets",
+      "JWT",
+      "OAuth 2.0",
+      "Git",
+    ],
   },
   {
     role: "DevOps Intern",
@@ -67,8 +76,8 @@ export const experience = [
     summary:
       "Managed cloud infrastructure and automated delivery pipelines.",
     highlights: [
-      "Worked on Infrastructure as Code (IaC) using Terraform to define and manage AWS resources through version-controlled configurations.",
-      "Automated build and deployment workflows through CI/CD pipelines using GitHub Actions, working with Docker containers on Linux environments.",
+      "Reduced environment provisioning time from 2 hours to 20 minutes by codifying AWS infrastructure (EC2, RDS, VPC, IAM, S3) as version-controlled Terraform modules.",
+      "Eliminated 5 manual steps across build, test, and image publishing by automating deployment for a Dockerized Linux application with a GitHub Actions CI/CD pipeline.",
     ],
     stack: ["Terraform", "AWS", "GitHub Actions", "Docker", "Linux", "CI/CD"],
   },
