@@ -141,7 +141,7 @@ export const featuredRepos: Record<
   },
   autoreload: {
     description:
-      "Edit, save, and your Go server is already restarting. A self-contained live-reload CLI built directly on fsnotify — debouncing, glob filtering, and careful process lifecycle management, with no third-party hot-reload frameworks in sight.",
+      "A zero-dependency live-reload CLI for Go that I designed and built myself. It watches your files, debounces the noise, and cleanly restarts your server on every save — all on top of fsnotify, no hot-reload frameworks involved.",
     stack: ["Go", "fsnotify", "CLI"],
   },
   scoped_psi: {
