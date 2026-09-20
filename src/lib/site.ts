@@ -45,7 +45,7 @@ export const education = [
 
 export const experience = [
   {
-    role: "Backend Intern",
+    role: "SDE Intern",
     company: "Cestrum",
     location: "Chennai, India",
     period: "Oct 2025 — Jun 2026",
