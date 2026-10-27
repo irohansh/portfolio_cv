@@ -12,7 +12,7 @@ export const site = {
   socials: {
     github: "https://github.com/irohansh",
     linkedin: "https://www.linkedin.com/in/rohansharma89",
-    twitter: "https://x.com/irohansh0",
+    twitter: "https://x.com/nightmarefiend0",
     leetcode: "https://leetcode.com/irohansh",
   },
 } as const;
